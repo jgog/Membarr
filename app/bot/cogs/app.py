@@ -131,9 +131,9 @@ else:
 
 class app(commands.Cog):
     # App command groups
-    plex_commands = app_commands.Group(name="plex", description="Membarr Plex commands")
-    jellyfin_commands = app_commands.Group(name="jellyfin", description="Membarr Jellyfin commands")
-    membarr_commands = app_commands.Group(name="membarr", description="Membarr general commands")
+    plex_commands = app_commands.Group(name="liteplex", description="Membarr Plex commands")
+    jellyfin_commands = app_commands.Group(name="litejellyfin", description="Membarr Jellyfin commands")
+    membarr_commands = app_commands.Group(name="litemembarr", description="Membarr general commands")
 
     def __init__(self, bot):
         self.bot = bot
