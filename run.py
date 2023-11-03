@@ -69,8 +69,8 @@ async def getuser(interaction, server, type):
             return None
 
 
-plex_commands = app_commands.Group(name="plexsettings", description="Membarr Plex commands")
-jellyfin_commands = app_commands.Group(name="jellyfinsettings", description="Membarr Jellyfin commands")
+plex_commands = app_commands.Group(name="liteplexsettings", description="Membarr Plex commands")
+jellyfin_commands = app_commands.Group(name="litejellyfinsettings", description="Membarr Jellyfin commands")
 
 
 @plex_commands.command(name="addrole", description="Add a role to automatically add users to Plex")
